@@ -252,7 +252,7 @@ export function ConversationsDashboard() {
             <Card className="p-4 bg-card border-border">
               <div className="text-sm text-muted-foreground mb-1">Showing</div>
               <div className="text-3xl font-bold text-foreground">
-                {data.start_index + 1} - {data.end_index}
+                {data.start_index} - {data.end_index}
               </div>
             </Card>
           </div>
